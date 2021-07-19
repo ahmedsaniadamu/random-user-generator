@@ -1,0 +1,13 @@
+// responsive layout using media query 
+   
+    @mixin mobile-responsive ($mobile-max :480px) {
+          @media screen and (max-width : $mobile-max) {
+              @content ;
+          }
+    } ;
+
+    @mixin tablet-responsive ( $tablet-min:490px , $tablet-max : 700px ) {
+          @media screen and (min-width : $tablet-min) and (max-width:$tablet-max) {
+                 @content ;
+          }
+    }

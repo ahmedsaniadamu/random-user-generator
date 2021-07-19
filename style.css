@@ -1,0 +1,123 @@
+html, body, * {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  font-size: 32px;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 490px) and (max-width: 700px) {
+  body {
+    font-size: 25px;
+  }
+}
+
+body > #main-container {
+  height: 100vh;
+}
+
+body > #main-container .modal .modal-dialog .modal-content .modal-header {
+  background-color: #fcfafa;
+  -webkit-box-shadow: 0px 2px 3px #f0f0f0;
+          box-shadow: 0px 2px 3px #f0f0f0;
+  height: 3rem;
+}
+
+body > #main-container .modal .modal-dialog .modal-content .modal-header .modal-title, body > #main-container .modal .modal-dialog .modal-content .modal-header .close {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  body > #main-container .modal .modal-dialog .modal-content .modal-header .modal-title, body > #main-container .modal .modal-dialog .modal-content .modal-header .close {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 490px) and (max-width: 700px) {
+  body > #main-container .modal .modal-dialog .modal-content .modal-header .modal-title, body > #main-container .modal .modal-dialog .modal-content .modal-header .close {
+    font-size: 1rem;
+  }
+}
+
+body > #main-container .modal .modal-dialog .modal-content .modal-body .card img {
+  height: 250px;
+  width: 250px;
+}
+
+body > #main-container .modal .modal-dialog .modal-content .modal-body .card .card-body .row p {
+  font-size: 1rem;
+}
+
+#button-container {
+  display: -webkit-box;
+  display: flex;
+  display: -ms-flexbox;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#get-user-parent {
+  background-color: #7e8bfa;
+  border-radius: 0.4rem;
+  width: 50%;
+  height: 50%;
+}
+
+@media screen and (max-width: 480px) {
+  #get-user-parent {
+    width: 100%;
+    height: 50%;
+  }
+}
+
+@media screen and (min-width: 490px) and (max-width: 700px) {
+  #get-user-parent {
+    width: 80%;
+    height: 50%;
+  }
+}
+
+#get-user-parent button {
+  font-size: 1.5rem;
+  width: 50%;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 480px) {
+  #get-user-parent button {
+    width: 80%;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 490px) and (max-width: 700px) {
+  #get-user-parent button {
+    width: 80%;
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
